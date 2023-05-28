@@ -1,6 +1,8 @@
 ## Reliability Check: An Analysis of GPT-3’s Response to Sensitive Topics and Prompt Wording
 Authors: Aisha Khatun, Dan Brown
+
 Affiliation: David R. Cheriton School of Computer Science, University of Waterloo, Canada.
+
 Publishing Venue: TrustNLP Workshop, ACL 2023.
 
 ### Abstract:
