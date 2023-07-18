@@ -5,6 +5,8 @@ Affiliation: David R. Cheriton School of Computer Science, University of Waterlo
 
 Publishing Venue: TrustNLP Workshop, ACL 2023.
 
+Paper: [Paper Link](https://trustnlpworkshop.github.io/papers/12.pdf), [Archive Link](https://arxiv.org/abs/2306.06199)
+
 ### Abstract:
 Large language models (LLMs) have become mainstream technology with their versatile use cases and impressive performance. Despite the countless out-of-the-box applications, LLMs are still not reliable. A lot of work is being done to improve the factual accuracy, consistency, and ethical standards of these models through fine-tuning, prompting, and Reinforcement Learning with Human Feedback (RLHF), but no systematic analysis of the responses of these models to different categories of statements, or on their potential vulnerabilities to simple prompting changes is available. In this work, we analyze what confuses GPT-3: how the model responds to certain sensitive topics and what effects the prompt wording has on the model response. We find that GPT-3 correctly disagrees with obvious Conspiracies and Stereotypes but makes mistakes with common Misconceptions and Controversies. The model responses are inconsistent across prompts and settings, highlighting GPT-3's unreliability.
 
@@ -19,6 +21,17 @@ The code used to query GPT-3 and perform analysis is present in [`assess_GPT3_se
 
 ### Citation
 
-If you use our dataset, please cite using the following citation:
+If you use our dataset, please cite using the following citation (incomplete):
 ```
+@inproceedings{khatun2023reliability,
+    title={Reliability Check: An Analysis of GPT-3's Response to Sensitive Topics and Prompt Wording},
+    author={Aisha Khatun and Daniel G. Brown},
+    booktitle={Proceedings of the 3rd Workshop on Trustworthy Natural Language Processing (TrustNLP 2023)},
+    year={2023},
+    publisher={Association for Computational Linguistics},
+    address=,
+    url=,
+    doi=,
+    pages=,
+}
 ```
